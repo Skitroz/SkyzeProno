@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#nav{
+    text-align: center;
+    padding: 15px;
+}
+
+.nav-links{
+    padding: 20px;
+    font-size: 1.5em;
+    color: rgb(184, 184, 184);
+}
+
+.nav-links:hover, #btn-prono:hover{
+    color: rgb(85, 85, 85);
+}   
+
+header{
+    background-image: url(img/background-football.webp);
+    height: 80vh;
+    width: auto;
+    background-size: cover;
+}
+
+#titre{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 4em;
+    color: rgb(228, 225, 225);
+}
+
+#prono{
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#btn-prono{
+    background-color: rgb(228, 225, 225);
+    color: black;
+    border-radius: 10px;
+    border: 4px double rgb(90, 89, 89);
+    font-size: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+main{
+    background-color: rgb(236, 236, 236);
+}
+
+.titre-main{
+    margin-left: 250px;
+    padding: 25px;
+    padding-top: 80px;
+}
+
+.section-main{
+    display: flex;
+    justify-content: center;
+}
+
+.section-main-titre{
+    padding: 25px;
+    margin: 0 150px;
+}
+
+#icon-rigor, #icon-lucid, #icon-motivation{
+    margin-left: 185px;
+    margin-bottom: 25px;
+}
+
+.section-text, .section-text-number{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-text-number{
+    margin-top: 50px;
+    font-size: 1.5em;
+}
