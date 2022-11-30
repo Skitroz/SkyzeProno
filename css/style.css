@@ -85,3 +85,36 @@ main{
     margin-top: 50px;
     font-size: 1.5em;
 }
+
+footer{
+    background-color: #011021;
+}
+
+#titre-footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    border-radius: 2%;
+}
+
+.titre-footer-h2{
+    color: rgb(184, 184, 184);
+    padding: 25px 100px;
+}
+
+.nav-footer-nav{
+    padding: 20px;
+}
+
+#nav-footer a{
+    font-size: 1em;
+}
+
+#nav-footer, #nav-footer-nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-footer-nav-links a{
+    margin: 0 50px;
+}
