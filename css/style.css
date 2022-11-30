@@ -68,6 +68,7 @@ main{
 .section-main-titre{
     padding: 25px;
     margin: 0 150px;
+    padding-bottom: 80px;
 }
 
 #icon-rigor, #icon-lucid, #icon-motivation{
